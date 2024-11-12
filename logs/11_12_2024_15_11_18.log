@@ -1,0 +1,21 @@
+[ 2024-11-12 15:11:27,226 ] - 54 datasets - INFO - PyTorch version 2.5.1 available.
+[ 2024-11-12 15:11:27,233 ] - 112 datasets - INFO - TensorFlow version 2.18.0 available.
+[ 2024-11-12 15:11:27,876 ] - 6 summarizerlogger - INFO - Logging is implemented
+[ 2024-11-12 15:11:27,880 ] - 28 summarizerlogger - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-12 15:11:27,881 ] - 28 summarizerlogger - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-12 15:11:27,882 ] - 46 summarizerlogger - INFO - created directory at: artifacts
+[ 2024-11-12 15:11:27,883 ] - 46 summarizerlogger - INFO - created directory at: artifacts/data_ingestion
+[ 2024-11-12 15:11:27,885 ] - 17 summarizerlogger - INFO - Downloading data from https://github.com/krishnaik06/datasets/raw/refs/heads/main/summarizer-data.zip
+[ 2024-11-12 15:11:29,641 ] - 19 summarizerlogger - INFO - Data downloaded successfully to artifacts/data_ingestion/data.zip
+[ 2024-11-12 15:11:29,674 ] - 33 summarizerlogger - INFO - Extracting data to artifacts/data_ingestion
+[ 2024-11-12 15:11:29,843 ] - 35 summarizerlogger - INFO - Data extracted successfully.
+[ 2024-11-12 15:11:29,846 ] - 28 summarizerlogger - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-12 15:11:29,847 ] - 28 summarizerlogger - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-12 15:11:29,849 ] - 46 summarizerlogger - INFO - created directory at: artifacts
+[ 2024-11-12 15:11:29,851 ] - 46 summarizerlogger - INFO - created directory at: artifacts/data_transformation
+[ 2024-11-12 15:11:31,498 ] - 88 summarizerlogger - INFO - Initiating data transformation process...
+[ 2024-11-12 15:11:31,499 ] - 59 summarizerlogger - INFO - Loading dataset from disk...
+[ 2024-11-12 15:11:31,730 ] - 62 summarizerlogger - INFO - Transforming dataset with tokenization...
+[ 2024-11-12 15:11:36,624 ] - 72 summarizerlogger - INFO - Saving processed dataset to artifacts/data_transformation\samsum_dataset...
+[ 2024-11-12 15:11:36,777 ] - 74 summarizerlogger - INFO - Data transformation and saving complete.
+[ 2024-11-12 15:11:36,790 ] - 90 summarizerlogger - INFO - Data transformation process completed successfully.

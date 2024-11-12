@@ -1,0 +1,18 @@
+[ 2024-11-12 15:08:42,663 ] - 54 datasets - INFO - PyTorch version 2.5.1 available.
+[ 2024-11-12 15:08:42,668 ] - 112 datasets - INFO - TensorFlow version 2.18.0 available.
+[ 2024-11-12 15:08:43,229 ] - 6 summarizerlogger - INFO - Logging is implemented
+[ 2024-11-12 15:08:43,233 ] - 28 summarizerlogger - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-12 15:08:43,234 ] - 28 summarizerlogger - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-12 15:08:43,236 ] - 46 summarizerlogger - INFO - created directory at: artifacts
+[ 2024-11-12 15:08:43,237 ] - 46 summarizerlogger - INFO - created directory at: artifacts/data_ingestion
+[ 2024-11-12 15:08:43,238 ] - 17 summarizerlogger - INFO - Downloading data from https://github.com/krishnaik06/datasets/raw/refs/heads/main/summarizer-data.zip
+[ 2024-11-12 15:08:45,802 ] - 19 summarizerlogger - INFO - Data downloaded successfully to artifacts/data_ingestion/data.zip
+[ 2024-11-12 15:08:45,826 ] - 33 summarizerlogger - INFO - Extracting data to artifacts/data_ingestion
+[ 2024-11-12 15:08:46,008 ] - 35 summarizerlogger - INFO - Data extracted successfully.
+[ 2024-11-12 15:08:46,013 ] - 28 summarizerlogger - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-12 15:08:46,014 ] - 28 summarizerlogger - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-12 15:08:46,016 ] - 46 summarizerlogger - INFO - created directory at: artifacts
+[ 2024-11-12 15:08:46,018 ] - 46 summarizerlogger - INFO - created directory at: artifacts/data_ingestion
+[ 2024-11-12 15:08:46,019 ] - 24 summarizerlogger - INFO - Data file already exists at artifacts/data_ingestion/data.zip
+[ 2024-11-12 15:08:46,020 ] - 33 summarizerlogger - INFO - Extracting data to artifacts/data_ingestion
+[ 2024-11-12 15:08:46,208 ] - 35 summarizerlogger - INFO - Data extracted successfully.

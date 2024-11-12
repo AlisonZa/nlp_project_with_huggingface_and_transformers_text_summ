@@ -19,3 +19,11 @@ class ConfigurationManager:
         create_directories([data_ingestion_config.root_dir]) # cria o /artifacts
 
         return data_ingestion_config
+    
+    def get_data_transformation_config(self)-> DataTransformationConfig:
+        data_transformation_config = self.configurations.data_transformation
+        
+        create_directories([data_transformation_config.root_dir]) # cria o /artifacts/data_transformation
+
+        return data_transformation_config
+

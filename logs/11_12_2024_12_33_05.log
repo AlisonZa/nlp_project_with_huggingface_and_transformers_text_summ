@@ -1,0 +1,8 @@
+[ 2024-11-12 12:33:06,001 ] - 4 summarizerlogger - INFO - Logging is implemented
+[ 2024-11-12 12:33:06,004 ] - 28 summarizerlogger - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-12 12:33:06,005 ] - 28 summarizerlogger - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-12 12:33:06,006 ] - 46 summarizerlogger - INFO - created directory at: artifacts
+[ 2024-11-12 12:33:06,007 ] - 46 summarizerlogger - INFO - created directory at: artifacts/data_ingestion
+[ 2024-11-12 12:33:06,008 ] - 24 summarizerlogger - INFO - Data file already exists at artifacts/data_ingestion/data.zip
+[ 2024-11-12 12:33:06,012 ] - 33 summarizerlogger - INFO - Extracting data to artifacts/data_ingestion
+[ 2024-11-12 12:33:06,183 ] - 35 summarizerlogger - INFO - Data extracted successfully.

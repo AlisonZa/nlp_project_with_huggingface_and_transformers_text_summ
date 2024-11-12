@@ -1,0 +1,9 @@
+[ 2024-11-12 11:41:47,193 ] - 4 summarizerlogger - INFO - Logging is implemented
+[ 2024-11-12 11:41:47,206 ] - 28 summarizerlogger - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-12 11:41:47,209 ] - 28 summarizerlogger - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-12 11:41:47,211 ] - 46 summarizerlogger - INFO - created directory at: artifacts
+[ 2024-11-12 11:41:47,212 ] - 46 summarizerlogger - INFO - created directory at: artifacts/data_ingestion
+[ 2024-11-12 11:41:47,213 ] - 17 summarizerlogger - INFO - Downloading data from https://github.com/krishnaik06/datasets/raw/refs/heads/main/summarizer-data.zip
+[ 2024-11-12 11:41:49,429 ] - 19 summarizerlogger - INFO - Data downloaded successfully to artifacts/data_ingestion/data.zip
+[ 2024-11-12 11:41:49,455 ] - 33 summarizerlogger - INFO - Extracting data to artifacts/data_ingestion
+[ 2024-11-12 11:41:49,644 ] - 35 summarizerlogger - INFO - Data extracted successfully.

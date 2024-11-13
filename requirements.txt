@@ -1,8 +1,18 @@
+ipykernel
+tensorflow
+keras
 transformers
+typing-extensions
+accelerate
 transformers[sentencepiece]
+transformers[torch]
+# tensorflow==2.13.0
+# keras== 2.13.1
+# transformers==4.38
+# accelerate==0.34.2
 datasets
 sacrebleu 
-rouge_score 
+rouge_score
 py7zr
 pandas
 nltk

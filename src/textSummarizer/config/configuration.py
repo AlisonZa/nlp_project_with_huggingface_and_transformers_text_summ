@@ -1,6 +1,8 @@
 from src.textSummarizer.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
 from src.textSummarizer.utils.common import read_yaml, create_directories
 from src.textSummarizer.entity import *
+from typing import Tuple
+
 
 class ConfigurationManager:
     def __init__(self,
@@ -26,4 +28,14 @@ class ConfigurationManager:
         create_directories([data_transformation_config.root_dir]) # cria o /artifacts/data_transformation
 
         return data_transformation_config
+
+    def get_model_trainer_config(self)-> Tuple[ModelTrainerConfig, ModelTrainerParams]:
+        
+        model_trainer_config = self.configurations.model_trainer
+        model_trainer_params = self.params["TrainingArguments"]
+    
+        
+        create_directories([model_trainer_config.root_dir]) # cria o /artifacts/model_trainer
+
+        return model_trainer_config, model_trainer_params
 

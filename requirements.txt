@@ -1,7 +1,9 @@
 ipykernel
 tensorflow
 keras
+scipy
 transformers
+threadpoolctl
 typing-extensions
 accelerate
 transformers[sentencepiece]
